@@ -1,5 +1,7 @@
 import Separador from "./components/Separador";
 import IntroVetores from "./components/IntroVetores";
+import DeclaracaoArray from "./components/DeclaracaoArray";
+import AcessoElementos from "./components/AcessoElementos";
 
 export default function App(){
 
@@ -9,6 +11,11 @@ export default function App(){
             <IntroVetores/>
             <Separador/>
 
+            <DeclaracaoArray/>
+            <Separador/>
+
+            <AcessoElementos/>
+            <Separador/>
         </div>
     )
 }

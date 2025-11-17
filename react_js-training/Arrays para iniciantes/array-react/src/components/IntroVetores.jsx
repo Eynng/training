@@ -1,7 +1,6 @@
 export default function IntroVetores() {
   return (
     <div>
-
       <h2>Introdução aos Vetores (Arrays) </h2>
 
       <p>
@@ -13,7 +12,6 @@ export default function IntroVetores() {
         Um array pode guardar qualquer tipo de dado: Numeros, Strings,
         Booleanos, Objetos, é até outros Arrays.
       </p>
-      
     </div>
   );
 }
