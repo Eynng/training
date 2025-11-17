@@ -2,20 +2,26 @@ import Separador from "./components/Separador";
 import IntroVetores from "./components/IntroVetores";
 import DeclaracaoArray from "./components/DeclaracaoArray";
 import AcessoElementos from "./components/AcessoElementos";
+import IteracaoFor from "./components/IteracaoFor";
+import IteracaoForEach from "./components/IteracaoForEach";
 
-export default function App(){
+export default function App() {
+  return (
+    <div style={{ padding: "20px" }}>
+      <IntroVetores />
+      <Separador />
 
-    return (
-        <div style={{padding: "20px"}}>
+      <DeclaracaoArray />
+      <Separador />
 
-            <IntroVetores/>
-            <Separador/>
+      <AcessoElementos />
+      <Separador />
 
-            <DeclaracaoArray/>
-            <Separador/>
+      <IteracaoFor />
+      <Separador />
 
-            <AcessoElementos/>
-            <Separador/>
-        </div>
-    )
+      <IteracaoForEach />
+      <Separador />
+    </div>
+  );
 }
