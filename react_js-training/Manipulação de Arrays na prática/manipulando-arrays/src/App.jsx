@@ -3,6 +3,7 @@ import ErroMutacaoArray from "./components/ErroMutacaoArray";
 import ArrayPushPop from "./components/ArrayPushPop";
 import ArrayUnshiftShift from "./components/ArrayUnshiftShift";
 import ArrayUpdateByIndex from "./components/ArrayUpdateByIndex";
+import ArraySplice  from "./components/ArraySplice";
 
 export default function App() {
   return(
@@ -20,6 +21,9 @@ export default function App() {
   <Separador />
 
   <ArrayUpdateByIndex />
+   <Separador />
+
+   <ArraySplice />
    <Separador />
   
   
