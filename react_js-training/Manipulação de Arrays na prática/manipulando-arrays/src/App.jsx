@@ -1,6 +1,8 @@
 import Separador from "./components/Separador";
 import ErroMutacaoArray from "./components/ErroMutacaoArray";
 import ArrayPushPop from "./components/ArrayPushPop";
+import ArrayUnshiftShift from "./components/ArrayUnshiftShift";
+import ArrayUpdateByIndex from "./components/ArrayUpdateByIndex";
 
 export default function App() {
   return(
@@ -13,6 +15,12 @@ export default function App() {
 
   <ArrayPushPop />
   <Separador />
+
+  <ArrayUnshiftShift />
+  <Separador />
+
+  <ArrayUpdateByIndex />
+   <Separador />
   
   
 </div>
