@@ -10,7 +10,6 @@ export default function App() {
 
 <div style={{margin:"20px"}}>
 
-
   <ErroMutacaoArray />
   <Separador />
 
@@ -25,7 +24,6 @@ export default function App() {
 
    <ArraySplice />
    <Separador />
-  
   
 </div>
 

@@ -33,7 +33,6 @@ function ArraySplice(){
         <div>
             <h2>Exemplo 4: Splice</h2>
             <p>{JSON.stringify(lista)}</p>
-
             <button onClick={adicionar}>Adicionar na posição 1</button>
             <button onClick={remover}>Remover posição 2</button>
             <button onClick={substituir}>Substituir posição 1</button>
